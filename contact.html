@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mac DeMarco Fan Site | კონტაქტი</title>
+
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="page-contact">
+  <a class="skip-link" href="#main">მთავარ კონტენტზე გადახტომა</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">MD</span>
+        <div class="brand__text">
+          <p class="brand__title">Mac DeMarco Fan Site</p>
+          <p class="brand__tagline">აკადემიური-სტილის გულშემატკივრული არქივი</p>
+        </div>
+      </div>
+
+     
+      <nav class="site-nav" aria-label="მთავარი ნავიგაცია">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="index.html">მთავარი</a></li>
+          <li class="nav__item"><a class="nav__link" href="about us.html">ჩვენს შესახებ</a></li>
+          <li class="nav__item"><a class="nav__link" href="services.html">სერვისები</a></li>
+          <li class="nav__item"><a class="nav__link" href="news.html">სიახლე</a></li>
+          <li class="nav__item"><a class="nav__link" href="contact.html">კონტაქტი</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container">
+       
+        <header class="section__header section__header--center">
+          <h1 id="contact-title" class="title-xl">Contact Us</h1>
+          <p class="muted">კონტაქტი</p>
+        </header>
+
+        
+        <section class="card form-card" aria-label="კონტაქტის ფორმა">
+          <form class="form" action="#" method="post">
+            <div class="form__grid">
+              <div class="field">
+                <label class="label" for="name">სახელი</label>
+                <input class="input" id="name" name="name" type="text" autocomplete="name" required />
+              </div>
+
+              <div class="field">
+                <label class="label" for="email">ელ-ფოსტა</label>
+                <input class="input" id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+
+              <div class="field field--full">
+                <label class="label" for="topic">თემა</label>
+                <select class="input" id="topic" name="topic">
+                  <option value="feedback">Feedback</option>
+                  <option value="archive">Archive update</option>
+                  <option value="collab">Collab</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="field field--full">
+                <label class="label" for="message">შეტყობინება</label>
+                <textarea class="input input--textarea" id="message" name="message" rows="6" required></textarea>
+              </div>
+            </div>
+
+            <div class="form__actions">
+              <button class="btn btn--primary" type="submit" aria-label="შეტყობინების გაგზავნა (დემო)">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                გაგზავნა
+              </button>
+              <p class="muted small">
+                
+              </p>
+            </div>
+          </form>
+        </section>
+
+        
+        <section class="section-sm" aria-label="სოციალური ინფორმაცია">
+          <div class="card">
+            <h2 class="title-lg">სოციალური ქსელები</h2>
+
+            <p class="muted">
+             
+            </p>
+
+            <div class="divider" role="separator" aria-hidden="true"></div>
+
+            <h3 class="title-md">როგორ იპოვოთ გვერდი</h3>
+            <ol class="steps">
+              <li>გახსენით Instagram</li>
+              <li>Search ველში ჩაწერეთ <strong>@macdemarco</strong></li>
+              <li>აირჩიეთ პროფილი და დაათვალიერეთ bio/ლინკები</li>
+            </ol>
+
+            <div class="social social--row" aria-label="სოციალური აიქონები (placeholder)">
+              <a class="social__link" href="https://www.instagram.com/macdememe.co/" aria-label="Instagram ">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <span>Instagram</span>
+              </a>
+              <a class="social__link" href="https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM" aria-label="spotify">
+                <i class="fa-brands fa-spotify" aria-hidden="true"></i>
+                <span>Spotify</span>
+              </a>
+              <a class="social__link" href="https://www.youtube.com/channel/UCqnMk5GA1spXDiHYFcPN-eA" aria-label="YouTube ">
+                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                <span>YouTube</span>
+              </a>
+            </div>
+
+            <p class="muted small">
+              
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="footer__text">
+        © <span aria-hidden="true">2026</span> Mac DeMarco Fan Site — არაოფიციალური, სასწავლო/ფან-პროექტი.
+      </p>
+      <p class="footer__text muted">
+       
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
